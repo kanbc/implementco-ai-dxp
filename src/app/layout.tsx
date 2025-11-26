@@ -13,8 +13,41 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Implementco AI DXP",
-  description: "Digital Experience Platform powered by AI",
+  title: "ImplementCo.AI | AI Transformation That Transforms People Too",
+  description:
+    "AI transformation isn't about replacing people—it's about transforming together. ImplementCo.AI is a Bumpcall × Foxbith collaboration bringing people-first AI transformation to organizations.",
+  keywords: [
+    "AI transformation",
+    "digital transformation",
+    "workforce transformation",
+    "AI implementation",
+    "people-first AI",
+    "corporate AI",
+    "Bumpcall",
+    "Foxbith",
+    "reskilling",
+    "upskilling",
+  ],
+  authors: [{ name: "ImplementCo.AI" }],
+  openGraph: {
+    title: "ImplementCo.AI | Implement. Co-create. Transform.",
+    description:
+      "AI transformation isn't about replacing people—it's about transforming together. A Bumpcall × Foxbith collaboration.",
+    url: "https://implementco-ai-dxp.vercel.app",
+    siteName: "ImplementCo.AI",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ImplementCo.AI | Implement. Co-create. Transform.",
+    description:
+      "AI transformation isn't about replacing people—it's about transforming together.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
