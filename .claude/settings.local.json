@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm add:*)",
+      "WebFetch(domain:implementai.co)",
+      "Bash(pnpm dlx:*)",
+      "WebSearch"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
