@@ -16,7 +16,7 @@ export default function Home() {
             </span>
           </div>
           <Button asChild>
-            <a href="mailto:contact@implementco.ai">Contact Us</a>
+            <a href="mailto:jake@bumpcall.app">Contact Us</a>
           </Button>
         </div>
       </header>
@@ -43,10 +43,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="text-lg px-8" asChild>
-              <a href="mailto:contact@implementco.ai">Start Your Transformation</a>
+              <a href="mailto:jake@bumpcall.app">Start Your Transformation</a>
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-8" asChild>
-              <a href="#our-story">Learn Our Story</a>
+              <a href="https://forms.gle/TpJd9Yt4X2nw749r8" target="_blank" rel="noopener noreferrer">Take Assessment</a>
             </Button>
           </div>
         </div>
@@ -419,7 +419,7 @@ export default function Home() {
             Let&apos;s build a future where your people AND your company thrive.
           </p>
           <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
-            <a href="mailto:contact@implementco.ai">Start the Conversation</a>
+            <a href="mailto:jake@bumpcall.app">Start the Conversation</a>
           </Button>
         </div>
       </section>
@@ -432,7 +432,7 @@ export default function Home() {
           </div>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a
-              href="mailto:contact@implementco.ai"
+              href="mailto:jake@bumpcall.app"
               className="hover:text-foreground transition-colors"
             >
               Contact
