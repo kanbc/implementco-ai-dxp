@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://implementco-ai-dxp.vercel.app"),
   title: "ImplementCo.AI | AI Transformation That Transforms People Too",
   description:
     "AI transformation isn't about replacing people—it's about transforming together. ImplementCo.AI is a Bumpcall × Foxbith collaboration bringing people-first AI transformation to organizations.",
@@ -37,12 +38,21 @@ export const metadata: Metadata = {
     siteName: "ImplementCo.AI",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/meta-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "ImplementCo.AI - Human and AI hands reaching together, symbolizing people-first AI transformation",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ImplementCo.AI | Implement. Co-create. Transform.",
     description:
       "AI transformation isn't about replacing people—it's about transforming together.",
+    images: ["/meta-image.jpg"],
   },
   robots: {
     index: true,
